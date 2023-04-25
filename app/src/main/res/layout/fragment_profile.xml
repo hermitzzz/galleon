@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment"
+    android:layout_marginBottom="55dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="?colorNavigation"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/btn_profile_popup"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#00000000"
+            android:contentDescription="@string/profile_menu"
+            android:foreground="@drawable/ic_settings"
+            android:foregroundTint="?colorNavigationInactiveIcon"
+            android:padding="1dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_profilePicture"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profilepicture_placeholder"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            />
+
+        <TextView
+            android:id="@+id/profile_username"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginStart="130dp"
+            android:textSize="30sp"
+            android:textColor="?colorLinkInactive"
+            tools:ignore="HardcodedText" />
+        <!--TODO change font family to gilroy-->
+        <TextView
+            android:id="@+id/profile_bio"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="60dp"
+            android:textAlignment="textStart"
+            android:textSize="14sp"
+            android:textColor="?colorText"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingTop="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="?colorBackground"
+            android:showDividers="middle"
+            android:divider="@drawable/empty_divider"
+            >
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?colorNavigation"
+                android:text="@string/profile_nav_lists"
+                android:textColor="?colorText"
+                android:textSize="15sp"
+                tools:ignore="TextContrastCheck"
+                android:id="@+id/btn_profile_nav_lists"/>
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?colorNavigation"
+                android:text="@string/profile_nav_comments"
+                android:textColor="?colorText"
+                android:textSize="15sp"
+                tools:ignore="TextContrastCheck"
+                android:id="@+id/btn_profile_nav_comments"/>
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?colorNavigation"
+                android:text="@string/profile_nav_saves"
+                android:textColor="?colorText"
+                android:textSize="15sp"
+                tools:ignore="TextContrastCheck"
+                android:id="@+id/btn_profile_nav_saves"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/nav_host_fragment_fragment_profile"
+        android:layout_marginTop="190dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/mobile_navigation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

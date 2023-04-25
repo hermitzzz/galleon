@@ -1,0 +1,83 @@
+<resources>
+    //navigation
+    <string name="app_name" translatable="false">Galleon</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_friend_list">Friends</string>
+    <string name="title_create">Create Post</string>
+    <string name="title_profile">Profile</string>
+
+    //home page
+    <string name="home_title">Latest lists ✨</string>
+
+    //search
+    <string name="search_title">Search lists and users ✨</string>
+    <string name="search_posts">Found | list(s)</string>
+    <string name="search_users">Found | user(s)</string>
+
+    //create post
+    <string name="create_title">Create new post ✨</string>
+
+    //settings
+    //preferences
+    <string name="settings_preferences_title">User Preferences</string>
+    <string name="settings_theme">Dark mode</string>
+    <string name="settings_language">Language</string>
+
+
+    //security
+    <string name="settings_security_title">Security</string>
+    <string name="settings_change_nick">Nickname</string>
+    <string name="settings_change_nick_summary">Change your nickname. You can do this every 30 days.</string>
+    <string name="settings_change_password">Password</string>
+    <string name="settings_change_password_summary">Change your password.</string>
+    <string name="settings_delete_account">Delete account</string>
+    <string name="settings_delete_account_summary">Delete your account (IT\'S IRREVERSIBLE!).</string>
+
+    //about
+    <string name="settings_about_title">About Us</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_version_summary" translatable="false">1.0.0-prototype</string>
+
+    //edit profile
+
+    <string name="profile_menu">Profile Menu</string>
+    <string name="profile_nav_lists">Lists</string>
+    <string name="profile_nav_comments">Comments</string>
+    <string name="profile_nav_saves">Saves</string>
+    <string name="edit_bio">Edit your Bio:</string>
+    <string name="new_bio_hint">New Bio…</string>
+    <string name="profile_popup_menu_item1">Follow</string>
+    <string name="profile_popup_menu_item2">Change profile picture</string>
+    <string name="profile_popup_menu_item3">Change your bio</string>
+
+
+    //Sign In/Sign Up
+    <string name="type_username">Username…</string>
+    <string name="type_email">E-mail…</string>
+    <string name="type_password">Password…</string>
+    <string name="retype_password">Confirm Password…</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_registered">Not registered yet? Sign Up!</string>
+    <string name="invalid_email">Invalid e-mail</string>
+
+    //error
+    <string name="error_already_registered">Already registered? Sign In!</string>
+    <string name="error_signup_passwords_dont_match">Passwords or email don\'t match</string>
+    <string name="error_signup_empty_field">1 or more fields are empty</string>
+    <string name="error_network">Network error</string>
+    <string name="profile_popup_menu_item5">Settings</string>
+    <string name="profile_popup_menu_item4">Report</string>
+    <string name="choice_cancel">Cancel</string>
+    <string name="choice_accept">OK</string>
+    <string name="edit_profilePicture">"Choose your profile picture: "</string>
+    <string name="edit_profilePictureStart">Choose a file:</string>
+    <string name="choice_chooseFile">Open…</string>
+    <string name="followed_user">Followed user</string>
+    <string name="user_reported">User Reported</string>
+    <string name="error_username_is_taken">Username is already taken</string>
+    <string name="error_couldnt_change_password">Couldn\'t change password</string>
+    <string name="toast_password_changed">Password changed</string>
+
+</resources>

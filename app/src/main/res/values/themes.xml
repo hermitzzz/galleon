@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+
+    <style name="galleonTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorNavigation">@color/light</item>
+        <item name="colorLists">@color/light</item>
+        <item name="colorLinkActive">@color/link_active</item>
+        <item name="colorLinkInactive">@color/link_inactive</item>
+        <item name="colorNavigationActiveIcon">@color/navigation_icon_active</item>
+        <item name="colorNavigationInactiveIcon">@color/navigation_icon_inactive</item>
+        <item name="colorText">@color/navigation_icon_inactive</item>
+        <item name="colorActiveText">@color/menu_active</item>
+        <item name="colorBackground">@color/background_gray</item>
+        <item name="colorBackgroundText">@color/light</item>
+        <item name="colorTitle">@color/text</item>
+        <item name="colorBackgroundGradient1">@color/background_blue1</item>
+        <item name="colorBackgroundGradient2">@color/background_blue2</item>
+        <item name="colorPrimary">@color/background_blue1</item>
+        <item name="colorPrimaryDark">@color/background_blue2</item>
+        <item name="colorAccent">@color/menu_active</item>
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/dialog_editBio"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="50dp"
+        android:hint="@string/new_bio_hint"
+        android:maxLength="60"
+        android:importantForAutofill="no"
+        android:inputType="text"/>
+
+</LinearLayout>

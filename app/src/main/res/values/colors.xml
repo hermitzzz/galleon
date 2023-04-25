@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_blue1">#FF6DAAB4</color>
+    <color name="background_blue2">#FF64c3cc</color>
+    <color name="navigation_icon_active">#FF64c3cc</color>
+    <color name="menu_active">#FF9ac5c7</color>
+    <color name="background_gray">#FF9ac5c7</color>
+    <color name="text">#FF033e43</color>
+    <color name="link_inactive">#FF31b0e0</color>
+    <color name="link_active">#FF51FFCE</color>
+
+    <color name="navigation_icon_inactive">#FF828282</color>
+    <color name="light">#FFFFFFFF</color> //text_dark, post_background_white, title_light
+    <color name="dark">#FF000000</color>
+</resources>

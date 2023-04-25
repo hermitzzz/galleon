@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_saves"
+    app:cardBackgroundColor="?colorLists"
+    android:clickable="true"
+    android:layout_margin="7dp"
+    app:cardCornerRadius="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="left|bottom">
+
+            <TextView
+                android:id="@+id/comments_list_username"
+                android:layout_width="match_parent"
+                android:paddingRight="8dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="right"
+                android:text="\@username"
+                android:textSize="7pt"
+                android:textColor="?colorLinkInactive" />
+
+            <TextView
+                android:maxLines="1"
+                android:id="@+id/comments_list_title"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="left"
+                android:text="List Title"
+                android:autoSizeMaxTextSize="9pt"
+                android:autoSizeMinTextSize="9pt"
+                android:textColor="?colorTitle"
+                />
+
+
+
+            <TextView
+                android:maxLines="10"
+                android:id="@+id/comments_list_comment"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="left"
+                android:text="List Comment"
+                android:autoSizeMaxTextSize="9pt"
+                android:autoSizeMinTextSize="9pt"
+                android:textColor="?colorText"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

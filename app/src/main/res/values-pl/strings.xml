@@ -1,0 +1,69 @@
+<resources>
+    <string name="title_home">Strona Główna</string>
+    <string name="title_search">Wyszukaj</string>
+    <string name="title_friend_list">Znajomi</string>
+    <string name="title_create">Utwórz post</string>
+
+    //home page
+    <string name="home_title">Najnowsze listy ✨</string>
+
+    //search
+    <string name="search_title">Wyszukaj listy i użytkowników ✨</string>
+    <string name="search_posts">Znaleziono | list</string>
+    <string name="search_users">Znaleziono | użytkowników</string>
+
+    //create post
+    <string name="create_title">Utwórz post ✨</string>
+
+    //settings
+    <string name="settings_theme">Tryb ciemny</string>
+    <string name="settings_language">Język</string>
+    <string name="settings_change_password">Hasło</string>
+    <string name="settings_delete_account">Usuń konto</string>
+
+    //edit profile
+    <string name="title_profile">Profil</string>
+    <string name="profile_menu">Menu profilu</string>
+    <string name="profile_nav_lists">Listy</string>
+    <string name="profile_nav_comments">Komentarze</string>
+    <string name="profile_nav_saves">Zapisane</string>
+    <string name="profile_popup_menu_item2">Zmień zdjęcie profilowe</string>
+    <string name="profile_popup_menu_item1">Obserwuj</string>
+    <string name="profile_popup_menu_item3">Zmień bio</string>
+    <string name="settings_change_password_summary">Zmien swoje hasło.</string>
+    <string name="settings_preferences_title">Preferencje Użytkownika</string>
+    <string name="settings_security_title">Bezpieczeństwo</string>
+    <string name="settings_delete_account_summary">Usuń swoje konto (TA DECYZJA JEST NIEODWRACALNA!).</string>
+    <string name="settings_change_nick">Pseudonim</string>
+    <string name="settings_change_nick_summary">Zmien swój pseudonim. Możesz to robić raz na 30 dni</string>
+    <string name="settings_version">Wersja</string>
+    <string name="settings_about_title">O Nas</string>
+
+    //Sign In
+    <string name="type_email">E-mail…</string>
+    <string name="type_password">Hasło…</string>
+    <string name="retype_password">Potwierdź hasło…</string>
+    <string name="sign_up">Zarejestruj się</string>
+    <string name="error_already_registered">Już zarejestrowany? Zaloguj się!</string>
+    <string name="error_signup_passwords_dont_match">Hasła lub e-mail się nie pokrywają</string>
+    <string name="error_signup_empty_field">1 lub więcej pól są puste</string>
+    <string name="sign_in">Zaloguj się</string>
+    <string name="not_registered">Jeszcze nie zarejestrowany? Zarejestruj się</string>
+    <string name="invalid_email">Niepoprawny adres e-mail</string>
+    <string name="type_username">Pseudonim…</string>
+    <string name="error_network">Błąd sieci</string>
+    <string name="profile_popup_menu_item5">Ustawienia</string>
+    <string name="profile_popup_menu_item4">Zgłoś</string>
+    <string name="edit_bio">Edytuj Bio:</string>
+    <string name="choice_cancel">Anuluj</string>
+    <string name="new_bio_hint">Nowe Bio…</string>
+    <string name="edit_profilePicture">Wybierz swoje zdjęcie profilowe:</string>
+    <string name="edit_profilePictureStart">Wybierz plik:</string>
+    <string name="choice_chooseFile">Otwórz…</string>
+    <string name="followed_user">Zaobserwowano użytkownika</string>
+    <string name="user_reported">Zgłoszono użytkownika</string>
+    <string name="choice_accept">OK</string>
+    <string name="error_username_is_taken">Pseudonim jest już zajęty</string>
+    <string name="toast_password_changed">Zmieniono hasło</string>
+    <string name="error_couldnt_change_password">Wystąpił błąd podczas zmiany hasła</string>
+</resources>

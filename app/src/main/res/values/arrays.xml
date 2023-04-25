@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_language_option">
+        <item name="english">English</item>
+        <item name="polish">Polski</item>
+        <item name="ukrainian">Українська</item>
+    </string-array>
+
+    <string-array name="settings_language_option_values">
+        <item name="english">en-US</item>
+        <item name="polish">pl-PL</item>
+        <item name="ukrainian">uk-UA</item>
+    </string-array>
+</resources>
